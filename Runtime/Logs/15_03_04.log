@@ -1,0 +1,306 @@
+[ 2015-03-04T00:35:21+08:00 ] 127.0.0.1 /weiphp/
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\weiphp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001895s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: uid D:\www\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.004136s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.001699s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('108','107') ) ORDER BY FIND_IN_SET(id,"108,107")  [ RunTime:0.000356s ]
+
+[ 2015-03-04T00:35:21+08:00 ] 127.0.0.1 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\weiphp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001665s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: uid D:\www\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.002498s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.002483s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('108','107') ) ORDER BY FIND_IN_SET(id,"108,107")  [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001859s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `type` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.002253s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 108 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_addons` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000223s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: _addons D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+NOTIC: [8] Undefined index: _controller D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001778s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 108 ) LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.001635s ]
+SQL: SELECT * FROM `wp_addon_category` ORDER BY sort asc, id desc  [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: home_memberpublic D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 105 行.
+NOTIC: [8] Undefined index: home_creditconfig_lists D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 107 行.
+NOTIC: [8] Undefined index: home_keyword D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 108 行.
+NOTIC: [8] Undefined index: home_cascade D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Chat D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Wecome D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: UserCenter D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomMenu D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Card D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Leaflets D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomReply D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Tongji D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Vote D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Suggestions D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Survey D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Coupon D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Scratch D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Exam D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Test D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: YouaskService D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Robot D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Extensions D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: WeiSite D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Forms D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Shop D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Hotel D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: HelloWorld D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: Diy D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined variable: model D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 153 行.
+NOTIC: [8] Undefined variable: model D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 155 行.
+INFO: [ pageFooter ] --START--
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001618s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'BaiduStatistics' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: Run BaiduStatistics [ RunTime:0.003760s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.003811s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2015-03-04T23:34:40+08:00 ] 127.0.0.1 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\weiphp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.046480s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: uid D:\www\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.004341s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.002927s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('108','107') ) ORDER BY FIND_IN_SET(id,"108,107")  [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015634s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `type` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001851s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 108 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_addons` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: _addons D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+NOTIC: [8] Undefined index: _controller D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001924s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 108 ) LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\www\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.002869s ]
+SQL: SELECT * FROM `wp_addon_category` ORDER BY sort asc, id desc  [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: home_memberpublic D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 105 行.
+NOTIC: [8] Undefined index: home_creditconfig_lists D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 107 行.
+NOTIC: [8] Undefined index: home_keyword D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 108 行.
+NOTIC: [8] Undefined index: home_cascade D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Chat D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Wecome D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: UserCenter D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomMenu D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Card D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Leaflets D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomReply D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Tongji D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Vote D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Suggestions D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Survey D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Coupon D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Scratch D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Exam D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Test D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: YouaskService D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Robot D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Extensions D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: WeiSite D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Forms D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Shop D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Hotel D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: HelloWorld D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: Diy D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined variable: model D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 153 行.
+NOTIC: [8] Undefined variable: model D:\www\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 155 行.
+INFO: [ pageFooter ] --START--
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'kjaldk' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001639s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'BaiduStatistics' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: Run BaiduStatistics [ RunTime:0.004287s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.004335s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
